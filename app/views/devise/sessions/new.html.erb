@@ -1,0 +1,27 @@
+<h2>Log in</h2>
+<div class="body">
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+<div class="flex-container">
+<ul class="flex-outer">
+      <li>
+      <%= f.label :email%>
+      <%= f.text_field :email, autofocus: true %>
+      </li>
+      <li>
+      <%= f.label :password %>
+      <%= f.password_field :password, autocomplete: "off"  %>
+      </li>
+      <li>
+          <%= f.submit "Log in", class: 'button'%>
+          
+          </li>
+          <li>
+          <%= link_to "Sign up", new_user_registration_path ,class: 'button'%>
+          </li>
+      </ul>
+
+
+</div>
+<% end %> 
+
+</div>

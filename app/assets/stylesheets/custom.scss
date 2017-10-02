@@ -1,0 +1,114 @@
+@import "bootstrap";
+
+    .field_with_errors { @extend .has-error; }
+    .alert-notice { @extend .alert-info; }
+    .alert-alert { @extend .alert-danger; }
+    .round-image-50 {
+      background-color: white;
+      border: 1px solid #d9d9d9;
+      border-radius: 25px;
+      -moz-border-radius: 25px;
+      -webkit-border-radius: 25px;
+      height: 50px;
+      width: 50px;
+      overflow: hidden;
+      text-align: center;
+      img { width: 100% }
+  }
+  #avatar_crop_preview_wrapper{
+      border-radius: 5px;
+      margin-top: 50%;
+      margin-left: 15%;
+  }
+  #avatar_cropbox{
+    margin-top: 2%;
+  }
+  .jcrop-tracker{
+    margin: 5px;
+  }
+    .body {
+      font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
+     
+    }
+    
+    .flex-container {
+      width: 300px;
+      height: 300px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .flex-container * {
+      box-sizing: border-box;
+    }
+    
+    .flex-outer,
+    .flex-inner {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .flex-outer {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .flex-outer li,
+    .flex-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .flex-inner {
+      padding: 0 8px;
+      justify-content: space-between;  
+    }
+    
+    .flex-outer > li:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    
+    .flex-outer li label,
+    .flex-outer li p {
+      padding: 8px;
+      font-weight: 300;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    
+    .flex-outer > li > label,
+    .flex-outer li p {
+      flex: 1 0 120px;
+      max-width: 220px;
+    }
+    
+    .flex-outer > li > label + *,
+    .flex-inner {
+      flex: 1 0 220px;
+    }
+    
+    .flex-outer li p {
+      margin: 0;
+    }
+    
+    .flex-outer li textarea {
+      padding: 15px;
+      border: none;
+    }
+    
+    .flex-outer li .button {
+      margin-left: auto;
+      padding: 8px 16px;
+      border: none;
+      background: #333;
+      color: #f2f2f2;
+      text-transform: uppercase;
+      letter-spacing: .09em;
+      border-radius: 2px;
+      margin: 0 auto;
+    }
+    
+    .flex-inner li {
+      width: 100px;
+    }
