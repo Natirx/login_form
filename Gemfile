@@ -13,7 +13,7 @@ gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 gem 'devise'
-gem 'aws-sdk', '~> 2.10', '>= 2.10.28'
+gem 'aws-sdk', '~> 1.6'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'rmagick'
 gem 'carrierwave'
