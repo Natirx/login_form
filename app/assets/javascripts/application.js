@@ -19,6 +19,5 @@
 
 //= require_tree .
 document.addEventListener("turbolinks:load", function() {
- 
+    init_papercrop()
 })
-init_papercrop()
