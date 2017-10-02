@@ -13,7 +13,9 @@
       width: 50px;
       overflow: hidden;
       text-align: center;
-      img { width: 100% }
+      img { width: 100% ;
+        height: 100%;
+      }
   }
   #avatar_crop_preview_wrapper{
       border-radius: 5px;
